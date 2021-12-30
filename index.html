@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script src="javascript.js"></script>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="luv">
+        <div class="cont">
+            <input class="d" type="number" id="text">
+            <input type="button" onclick="licz()" value="LICZ" id="licz">
+            <input type="button" id="clear" value="WYCZYŚĆ" onclick="usuwanko()">
+        </div>
+        <br>
+        <div class="cont c">
+            <input type="button" value="1" id="1" onclick="uzup(1)">
+            <input type="button" value="2" id="2" onclick="uzup(2)">
+            <input type="button" value="3" id="3" onclick="uzup(3)">
+        </div>
+        <div class="cont c">
+            <input type="button" value="4" id="4" onclick="uzup(4)">
+            <input type="button" value="5" id="5" onclick="uzup(5)">
+            <input type="button" value="6" id="6" onclick="uzup(6)">
+        </div>
+        <div class="cont c">
+            <input type="button" value="7" id="7" onclick="uzup(7)">
+            <input type="button" value="8" id="8" onclick="uzup(8)">
+            <input type="button" value="9" id="9" onclick="uzup(9)">
+        </div>
+        <div class="cont">
+            <input type="button" value="0" id="0" class="a" onclick="uzup(0)">
+        </div>
+        <br>
+        <div class="cont">
+            <input type="button" value="+" id="+" onclick="oper(0)">
+            <input type="button" value="-" id="-" onclick="oper(1)">
+            <input type="button" value="x" id="x" onclick="oper(2)">
+            <input type="button" value="/" id="/" onclick="oper(3)">
+        </div>
+    </div>
+</body>
+
+</html>
