@@ -26,6 +26,9 @@ function licz(){
     if(operator==3){
         document.getElementById("text").value=liczba1/liczba2
     }
+    if(operator==null){
+        document.getElementById("text").value="operator?"
+    }
 }
 function usuwanko(){
     document.getElementById("text").value=null
